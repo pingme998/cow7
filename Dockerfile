@@ -14,6 +14,6 @@ RUN apt update -y  && \
     mkdir /voila/files
 COPY Essential-Files /Essential-Files
 COPY Essential-Files/index.html /usr/index.html
-COPY Essential-Files/favicon.ico /voila/files/favicon.ico
+#COPY Essential-Files/favicon.ico /voila/files/favicon.ico
 RUN chmod +x /Essential-Files/entrypoint.sh
 CMD /Essential-Files/entrypoint.sh
