@@ -3,7 +3,7 @@ EXPOSE 8080
 COPY Essential-Files/Aria2Rclone.ipynb /Aria2Rclone.ipynb
 COPY Essential-Files/Aria2Rclone.jpg /Aria2Rclone.jpg
 COPY bot.py /bot.py
-COPY process /process
+COPY process.txt /process.txt
 RUN apt update -y  && \
     apt install curl -y  && \
     apt install pip -y && \
