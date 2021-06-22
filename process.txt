@@ -1,2 +1,2 @@
 bash '/Essential-Files/entrypoint.sh'
-bash cow.sh 
+bash /cow.sh 
